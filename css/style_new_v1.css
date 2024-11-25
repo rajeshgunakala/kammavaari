@@ -1,0 +1,1082 @@
+@font-face {
+    font-family: Exo2-Black;
+    src: url(../fonts/Exo2-Black.ttf);
+}
+@font-face {
+    font-family: Exo2-Bold;
+    src: url(../fonts/Exo2-Bold.ttf);
+}
+@font-face {
+    font-family: Exo2-Medium;
+    src: url(../fonts/Exo2-Medium.ttf);
+}
+@font-face {
+    font-family: Exo2-Regular;
+    src: url(../fonts/Exo2-Regular.ttf);
+}
+@font-face {
+    font-family: Exo2-SemiBold;
+    src: url(../fonts/Exo2-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: Manrope-Bold;
+    src: url(../fonts/Manrope-Bold.ttf);
+}
+@font-face {
+    font-family: Manrope-ExtraLight;
+    src: url(../fonts/Manrope-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Manrope-Light;
+    src: url(../fonts/Manrope-Light.ttf);
+}
+@font-face {
+    font-family: Manrope-Medium;
+    src: url(../fonts/Manrope-Medium.ttf);
+}
+@font-face {
+    font-family: Manrope-Regular;
+    src: url(../fonts/Manrope-Regular.ttf);
+}
+@font-face {
+    font-family: Manrope-SemiBold;
+    src: url(../fonts/Manrope-SemiBold.ttf);
+}
+
+
+
+@font-face {
+    font-family: MontserratAlternates-ExtraBold;
+    src: url(../fonts/MontserratAlternates-ExtraBold.ttf);
+}
+@font-face {
+    font-family: MontserratAlternates-ExtraLight;
+    src: url(../fonts/MontserratAlternates-ExtraLight.ttf);
+}
+@font-face {
+    font-family: MontserratAlternates-Light;
+    src: url(../fonts/MontserratAlternates-Light.ttf);
+}
+@font-face {
+    font-family: MontserratAlternates-Medium;
+    src: url(../fonts/MontserratAlternates-Medium.ttf);
+}
+@font-face {
+    font-family: MontserratAlternates-Regular;
+    src: url(../fonts/MontserratAlternates-Regular.ttf);
+}
+@font-face {
+    font-family: MontserratAlternates-SemiBold;
+    src: url(../fonts/MontserratAlternates-SemiBold.ttf);
+}
+
+body{
+	font-family:Manrope-Regular;
+}
+html, 
+body, 
+div, 
+span, 
+object, 
+iframe, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+blockquote, 
+pre, 
+a, 
+img, 
+small, 
+strong, 
+ol, 
+ul, 
+li, 
+form, 
+label, 
+table, 
+caption, 
+tr, 
+td, 
+footer, 
+header{
+	font-family:Manrope-Regular;
+}
+
+header{
+	background:transparent;
+	border-bottom:none;
+	padding:0px;
+	position:relative;
+}
+
+/* ************* NAV START *********** */
+.navbar-default{
+	background: rgb(255 255 255 / 95%);
+    border: none;
+	border-radius: 0;
+}
+.navbar{
+	min-height:auto;
+}
+.navbar-default{
+	height:auto;
+	border-bottom: 2px solid #ffb902;
+	margin: 0;
+    padding: 0;
+    background:#e6e6e6;
+    position: fixed;
+    overflow:visible;
+    top:0;
+    width: 100%;
+}
+.container {
+    margin-top: 100px;
+}
+.navbar-brand{
+	height:auto;
+	margin-left:15%;
+}
+.nav.navbar-nav.navbar-right {
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 18px;
+    font-family: MontserratAlternates-SemiBold !important;
+    color: #ed2025;
+}
+
+.logoClass{
+	width:300px;
+}
+.headerNavIcon{
+	width:50px;
+	margin-top:-15px;
+}
+/* ************* NAV END *********** */
+
+/* ************* INDEX HERO SECTION START *********** */
+.indexHeroSection{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:0px;
+}
+.indexHeorContent{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.indexHeorContent img{
+	width:100%;
+}
+.indexHeroSectionContent{
+	background: rgb(0 0 0 / 75%);
+    color: #fff;
+    font-family: Manrope-Bold;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 50px;
+    width: 100%;
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 25%;
+	text-shadow: 1px 1px 3px #cacaca;
+}
+/* ************* INDEX HERO SECTION END *********** */
+
+/* ************* INDEX BODY WRAPPER START *********** */
+.indexBodyWrapper{
+	width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+/* ************* INDEX SEARCH WRAPPER START *********** */
+.indexSearchWrapper{
+	background: #faa61a;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 0 10%;
+    color: #000;
+    clear: both;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	position:absolute;
+	top:35%;
+}
+.indexBodyWrapper .container {margin-top:20px;}
+.indexSearchWrapper select{
+	border-radius: 5px;
+    box-shadow: 0px 0px 4px #757474;
+    border: none;
+    padding: 6px 6px;
+    height: 40px;
+	width:100%;
+}
+.indexSearchWrapper label{
+	font-family:Manrope-Medium !important;
+	font-size:16px;
+}
+
+
+.imLooking {
+    width: 150px;
+    float: left;
+    margin:0 20px 0 40px;
+}
+.imLooking label{
+	width:100%;
+	display:block;
+	text-align: center;
+}
+.aged {
+    width: 134px;
+    float: left;
+    margin:0 20px;
+}
+.aged label{
+	display:block;
+	width:100%;
+	text-align: center;
+}
+.agedFrom {
+    width: 53px;
+    float: left;
+}
+.agedTo {
+    display: table;
+    float: left;
+    margin: 0 5px;
+    line-height: 31px;
+    font-size: 16px;
+}
+.agedToSelectHolder{
+	width: 53px;
+    float: left;
+}
+.religion {
+    width: 150px;
+    float: left;
+	margin:0 20px; 
+}
+.religion label{
+	width:100%;	
+	display:block;
+	text-align: center;
+}
+.motherTngueHold {
+    width: 180px;
+    float: left;
+    margin: 0 20px;
+}
+.motherTngueHold label{
+	width:100%;
+	display:block;
+	text-align: center;
+}
+.LetsBeginBtn {
+    width: auto;
+    float: left;
+    margin: 25px 15px 0;
+}
+.LetsBeginBtn a{
+	background: #ed1c24;
+    color: #fff;
+    font-family: Manrope-Light !important;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+	transition:1s ease;
+	text-transform:uppercase;
+	padding:10px 20px;
+	font-weight:700;
+}
+.LetsBeginBtn a:hover{
+	color:#fff !important;
+	transition:1s ease;
+}
+/* ************* INDEX SEARCH WRAPPER END *********** */
+
+
+/* ************* INDEX FIEND YOUR SPECIAL START *********** */
+.findYourSpecialWrapper{
+    margin: auto;
+    width: 80%;
+}
+.findYourSpecialContainer{
+	width: 100%;
+    margin: 10px 0 10px;
+    float: left;
+}
+.findYourSpecialHeading{
+	width:100%;
+	float:left;
+	font-size:35px;
+	font-family:Manrope-Medium;
+	margin:0 0 30px;
+	text-align:center;
+}
+.findYourSpecialBody{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.findYourIconWrapper{
+	width:100%;
+	float:left;
+	margin:25px 0;
+	padding:0px;
+	position:relative;
+}
+.findYourIcon {
+    width: 165px;
+    margin: auto;
+	padding:25px;
+	background:#e7e7e8;
+	border-radius:165px;
+	margin-bottom:25px;
+}
+.findYourIcon img{
+	width:115px;
+}
+.findYourIconTitle{
+	width:100%;
+	float:left;
+	color:#f1592a;
+	font-size:20px;
+	text-align:center;
+	font-family:Manrope-Bold !important;
+	margin-bottom:5px;
+}
+.findYourIconSubTitle{
+	width:100%;
+	float:left;
+	color:#000;
+	font-size:16px;
+	text-align:center;
+	font-family:Manrope-Medium !important;
+	margin-bottom:15px;
+}
+/* ************* INDEX FIEND YOUR SPECIAL END *********** */
+
+/* ************* INDEX TRUSTED BY MILLIONS START *********** */
+.trustedByMillionsWrapper{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+	background:#faa61a;
+	margin-bottom:50px;
+	position:relative;
+}
+.trustedByMillionsWrapper:after{
+	position: absolute;
+    content: "";
+    border-bottom: 352px solid #c56b29;
+    border-left: 937px solid transparent;
+    top: 0;
+    right: 0;
+    width: 74%;
+}
+.trustedByMillionsContainer{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	z-index:1;
+}
+.trustedByMillionsHeading{
+	width: 100%;
+    float: left;
+    margin: 25px 0;
+    padding: 0px;
+    text-align: center;
+    font-family: Manrope-Bold !important;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.trustedByMillionsIconHolder{
+	width:100%;
+	float:left;
+	margin:auto;
+	text-align:center;
+	margin-bottom:25px;
+}
+/* ************* INDEX TRUSTED BY MILLIONS END *********** */
+
+/* ************* INDEX SPECIAL SERVICES START *********** */
+.specialSerivcesWrapper{
+	width: 100%;
+    float: left;
+    position: relative;
+}
+.specialSerivcesBottomOrange{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+	height:45%;
+	bottom:0px;
+	background: rgb(249,201,13);
+	background: linear-gradient(145deg, rgba(249,201,13,1) 0%, rgba(248,154,29,1) 100%);
+	position:absolute;
+	z-index:0;
+}
+.ztwo{z-index:2;}
+.specialSerivceRunningContentWrapper {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.specialSerivceRunningContentHeader {
+    width: auto;
+    /* float: left; */
+    margin: 0;
+    padding: 0;
+    color: #ed1c24;
+    border-bottom: 1px solid #ccc;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Manrope-Bold !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: table;
+	margin-bottom:25px;
+}
+.specialSerivceRunningContentOne{
+	width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    margin-bottom: 50px;
+	z-index:2;
+}
+.specialSerivceRunningContentOne p.subHeading{
+	font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.specialSerivceRunningContentOne ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.specialSerivceRunningContentOne ul li{
+	width:100%;
+	float:left;
+	margin:5px 0;
+	padding:0px;
+	font-size:18px;
+	position:relative;
+}
+
+.specialSerivceRunningContentTwo{
+	width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    margin-top: 55px;
+	font-family:Manrope-SemiBold !important;
+	z-index:2;
+}
+.specialSerivceRunningContentTwo ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.specialSerivceRunningContentTwo ul li{
+	width: 100%;
+    float: left;
+    margin: 5px 0;
+    padding: 0px;
+    font-size: 16px;
+    position: relative;
+    font-family: Manrope-SemiBold !important;
+    display:flex;
+}
+.specialSerivceRunningContentTwo ul li p {padding-left:5px;}
+.search-kammavaari .form-group.col-xs-12 {padding:0;}
+.search-kammavaari .btn-primary {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.form-section {margin-bottom:20px;}
+.form-section .upload-image .col-md-6 {padding:0;margin:0;}
+.form-section .upload-image .do-later {float:right;font-size:18px;}
+
+.main-dashboard {
+    margin-top: 80px;
+    background: #F2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+i.fa.fa-caret-right.custFa {
+    position: absolute;
+    left: 11px;
+    top: 3px;
+}
+/* ************* INDEX SPECIAL SERVICES END *********** */
+
+/* ************* INDEX HAPPY STORIES START *********** */
+.happyStoriesWrapper {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0;
+    position: relative;
+}
+.happyStoreMainTitle {
+    width: 100%;
+    float: left;
+    margin: 25px 0 0;
+    padding: 0;
+    font-family: 'Manrope-Bold' !important;
+    color: #ed1c24;
+    text-align: center;
+    font-size: 35px;
+}
+.happyStoreMainbody{
+	width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px 25px;
+}
+.happyStoryHolderWrapper {
+    width: 295px;
+    margin: 25px auto;
+}
+.happyStoryImageHolder {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+	max-height:230px;
+	overflow:hidden;
+}
+.happyStoryImageHolder img{
+	max-width:295px;
+	margin:auto;
+	height:200px;
+}
+.happyStoryDescWrapper {
+    width: 295px;
+    margin: 0 auto;
+    padding: 20px 25px 40px;
+    background: #f05557;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    min-height: 218px;
+    overflow: hidden;
+}
+.happyStoryDescWrapper:before{
+	width:22px;
+	height:28px;
+	content:"";
+	background:url(../images/invite_2.png);
+	right:15px;
+	bottom:15px;
+	position:absolute;
+}
+.happyStoryDescWrapper:after{
+	width:22px;
+	height:28px;
+	content:"";
+	background:url(../images/invite_1.png);
+	left:15px;
+	top:15px;
+	position:absolute;
+}
+.happyStoryDescTitle {
+    text-align: center;
+    color: #ffe900;
+    width: 80%;
+    margin: auto;
+    min-height: 30px;
+	font-size:16px;
+}
+.happyStoryDesc {
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+	font-family:Manrope-Regular !important;
+}
+/* ************* INDEX HAPPY STORIES END *********** */
+
+/* ************* INDEX HAPPY STORIES CAROUSEL START *********** */
+#successStories .owl-dots{display:none;}
+#successStories .owl-nav{    position: absolute; top: 50%; width: 100%;}
+#successStories.owl-carousel .owl-nav button.owl-prev, 
+#successStories.owl-carousel .owl-nav button.owl-next, 
+#successStories.owl-carousel button.owl-dot{width:auto; height:auto; background:none;}
+#successStories.owl-carousel .owl-nav button.owl-next{position:absolute; right:0px;}
+#successStories.owl-carousel .owl-nav button.owl-next,
+#successStories.owl-carousel .owl-nav button.owl-prev{
+	width:38px;
+	height:38px;
+	text-indent:-9999px;
+	outline:none;
+}
+#successStories.owl-carousel .owl-nav button.owl-prev {
+    background: url(../images/left_arrow.png) no-repeat;
+    left: -50px;
+    position: absolute;
+}
+#successStories.owl-carousel .owl-nav button.owl-next {
+    background: url(../images/right_arrow.png) no-repeat;
+	right:-30px;
+    position: absolute;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+/* ************* INDEX HAPPY STORIES CAROUSEL END *********** */
+
+/* ************* INDEX THE MOST TRUSTED BRAND START *********** */
+.mostTrustedBrandWrapper {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 25px 0 20px;
+    position: relative;
+    background: #fad2c0;
+}
+.mostTrustedBrand {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 35px;
+    font-family: Manrope-Light !important;
+}
+/* ************* INDEX THE MOST TRUSTED BRAND END *********** */
+
+
+/* ************* INDEX KAMMAVAARI MATRIMONY START *********** */
+.kammavaariMatrimonialWrapper {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 25px 0;
+}
+.kammavaariMatrimonialTitle {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 35px;
+    text-align: center;
+}
+.kammavaariMatrimonialDesc {
+    width: 65%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    font-family: Manrope-Regular !important;
+    margin-bottom: 25px;
+    line-height: 29px;
+}
+.kammavaariMatrimonialLocation {
+    width: 65%;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Manrope-Bold !important;
+    font-size: 18px;
+}
+.kammavaariMatrimonialSendEmailWrapper {
+    width: 90%;
+    background: #f05557;
+    margin: auto;
+    border-radius: 5px;
+    padding: 25px;
+}
+.kammavaariMatrimonialSendEmailLabel {
+    width: 40%;
+    float: left;
+    font-family: Manrope-SemiBold !important;
+    color: #fff;
+    font-size: 30px;
+}
+.kammavaariMatrimonialSendEmailInput {
+    width: 60%;
+    float: left;
+    margin: 0;
+    padding: 0;
+	position:relative;
+}
+.kammavaariMatrimonialSendEmailInput input.kmEmailInput {
+    width: 100%;
+    border: 0;
+    height: 42px;
+    padding: 10px;
+    font-size: 20px;
+    color: #ccc;
+    border-radius: 5px;
+    padding-right: 95px;
+}
+.kammavaariMatrimonialSendEmailInput input::placeholder{
+	color:#ccc;
+	font-family:Manrope-Regular !important;
+}
+.kammavaariMatrimonialSendEmailInput span.sendBtn {
+    position: absolute;
+    width: auto;
+    background: #f8a11b;
+    color: #fff;
+    right: 0px;
+    padding: 10px 10px;
+    border-radius: 0 5px 5px 0px;
+    font-size: 16px;
+    font-family: 'Manrope-Medium' !important;
+	cursor:pointer;
+	margin-top:3px;
+}
+/* ************* INDEX KAMMAVAARI MATRIMONY END *********** */
+
+/* ************* INDEX FOOTER SECTION START *********** */
+.footerWrapper {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 50px 0;
+    background: rgb(249,201,13);
+	background: linear-gradient(270deg, rgba(249,201,13,1) 0%, rgba(248,154,29,1) 100%);
+}
+.footerLeftHeader {
+    width: 100%;
+    float: left;
+    color: #000;
+    font-family: 'Manrope-SemiBold' !important;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.footerRightHeader{
+	width: 100%;
+    float: left;
+    color: #000;
+    font-family: 'Manrope-SemiBold' !important;
+    font-size: 28px;
+    margin-bottom: 15px;
+	text-align:center;
+}
+.footerMapHolder{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.footerMapHolder img{
+	width:100%;
+}
+.footerAddress {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+.footerAddressHeader {
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-family: 'Manrope-SemiBold' !important;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.footerAddressContent {
+    width: 100%;
+    float: left;
+    margin: 0;
+    font-family: 'Manrope-Regular' !important;
+    font-size: 20px;
+    line-height: 30px;
+}
+.footerContactSuppot {
+    width: 100%;
+    float: left;
+    margin-bottom: 35px;
+}
+.footeContactSupportHeader {
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-family: 'Manrope-SemiBold' !important;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.footerContactSupportPhoneNo {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope-Bold' !important;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.footeContactSupportSubHeader {
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+.footerMailYourQuery {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.footerMailYourQueryHeading {
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-family: 'Manrope-SemiBold' !important;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.footerMailYourQueryID {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope-Medium' !important;
+    font-size: 25px;
+}
+.footerDesign {
+    width: 100%;
+    float: left;
+    height: 118px;
+    margin: 0;
+    padding: 0;
+	background:url(../images/footer_design.png) repeat;
+}
+/* ************* INDEX FOOTER SECTION END *********** */
+
+
+
+/* ************* INDEX BODY WRAPPER END *********** */
+
+
+
+
+/* **************** MEDIA CSS START ******************** */
+@media (min-width:320px){
+	.logoClass {width: 200px;}
+	.navbar-default .navbar-toggle {border-color: #faa61a !important;}
+	.navbar-default .navbar-toggle .icon-bar {background-color: #faa61a !important;}
+	
+	.indexHeroSection{top:0;}
+	.indexSearchWrapper{margin-top:50px;} 
+	.indexHeroSectionContent{line-height:25px; font-size:20px;}
+	.trustedByMillionsWrapper:after{bottom:0px;}
+	.specialSerivcesBottomOrange {height:63%;}
+	.kammavaariMatrimonialSendEmailLabel{width:100%;}
+	.kammavaariMatrimonialSendEmailInput{width:100%; font-size: 24px; margin-bottom: 10px;}
+	.custRow{margin-left: 0 !important; margin-right: 0px !important;}
+}
+@media (min-width:420px){}
+@media (min-width:590px){}
+@media (min-width:640px){
+	.navbar-default .navbar-toggle {
+		border-color: #ed1c24 !important;
+		background:#ed1c24 !important;
+	}
+}
+@media (min-width:720px){}
+/* iPhone 6+ */
+@media (min-width:737px){
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: 20%;
+	}
+}
+@media (min-width:1020px){}
+@media (min-width:1024px){
+	.logoClass {width: 300px;}
+}
+@media (min-width:1200px){}
+@media (min-width:1366px){
+	.indexHeroSection{top:0px;}
+	.indexSearchWrapper{margin-top:150px;} 
+	.indexHeroSectionContent{line-height:50px; font-size:30px;}
+	.specialSerivcesBottomOrange {height:45%;}
+	.kammavaariMatrimonialSendEmailLabel{width:40%;}
+	.kammavaariMatrimonialSendEmailInput{width:60%; font-size:30px; margin-bottom:0px;}
+	.custRow{margin-left: -15px !important; margin-right: -15px !important;}
+}
+@media (min-width:1500px){}
+@media (min-width:1900px){}
+/* **************** MEDIA CSS END ******************** */
+
+.mb{margin-bottom:0px;}
+.p0{padding:0px;}
+
+.custRow{margin-left:-15px; margin-right:-15px;}
+.about-content .desc p {
+    margin-bottom:15px;
+}
+.about-content .sign {
+    text-align:right;
+}
+.about-content .sign p {
+    margin-bottom:3px;
+}
+.copyrights {
+    max-width:1170px;
+    margin:0 auto;
+}
+
+.copyrights p {
+    font-size:14px;
+}
+.container-fluid .container {margin-top:0;}
+.form-section .container {padding:0;}
+.form-section h2 {margin-bottom:20px;}
+.form-section .general-form label {font-weight:600;}
+.form-section .general-form .col-md-4 {margin-top:20px;}
+.form-section .general-form .panel-body {padding: 0 15px 15px 15px;}
+.form-section .general-form .panel-default>.panel-heading {background-color:#ff5a60;color:#fff;font-weight:600;}
+.form-section h2 i:before {
+    padding-right: 5px;
+}
+.edit-profile {background-color:#f2f2f2;}
+.edit-profile .container {
+    margin-top: 80px;
+	padding: 0;
+}
+.edit-profile .container > .col-md-12 {margin-bottom:20px;}
+.edit-profile .col-md-6 {margin-top:20px;}
+.edit-profile .profile-details {
+   background: #fff;
+   border: 1px solid #cecece;
+   box-shadow: 2px 2px 2px 2px #cecece;
+   border-radius: 4px;
+   padding: 20px;
+   }
+.edit-profile .jstyling-radio {float:left;}
+.edit-profile input[type=checkbox], input[type=radio] {
+    margin: 2px 0 0;
+    margin-top: 1px;
+    line-height: normal;
+}
+.edit-profile .sidebar {margin-top:40px;}
+.edit-profile .no-padding-left {padding-left:0;}
+.edit-profile .fa, .edit-profile .fas {
+   font-weight: 900;
+   padding-right: 10px;
+}
+
+.edit-profile h4.sub-leadings {
+   padding: 5px 10px;
+   border-bottom: 1px solid #fca61b;
+   margin: 15px 0;
+   font-size: 15px;
+   font-weight: bold;
+}
+.edit-profile label {font-weight:700;}
+.edit-profile .form-radio-item label {font-weight:500;}
+.indexSearchContainer .heading {display:none;}
+
+@media (max-width:767px){
+	.indexSearchContainer .heading {
+		display: block;
+		text-align: center;
+		font-size: 28px !important;
+		line-height: 34px;
+		color: #1b1a1a;
+		margin: 0 0 15px 0;
+	}
+	.indexSearchWrapper {
+		position: relative;
+		border-radius: 0;
+		margin: 0;
+		width:100%;
+	}
+	.indexSearchContainer .imLooking, .indexSearchContainer .motherTngueHold, .indexSearchContainer .aged,.indexSearchContainer .religion{
+		width: 100%;
+		float: left;
+		margin: 10px 0;
+	}
+	.agedFrom, .agedToSelectHolder {
+		width: 47%;
+		float: left;
+	}
+	.LetsBeginBtn {
+		width: 100%;
+		float: left;
+		margin: 10px auto;
+	}
+	
+	.indexSearchContainer .imLooking label, .indexSearchContainer .motherTngueHold label, .indexSearchContainer .aged label,.indexSearchContainer .religion label {text-align:left;}
+}
+@media (max-width:475px){
+	.agedFrom, .agedToSelectHolder {
+		width: 45%;
+		float: left;
+	}
+}
+@media (max-width:991px){
+.rm-desk {display:none;}
+.rm-mob {display:block;}
+}
+@media (min-width:992px){
+.rm-desk {display:block;}
+.rm-mob {display:none;}
+}
+
+@media (max-width: 480px) {
+	.indexSearchContainer .heading {
+		display: block;
+		text-align: center;
+		font-size: 20px !important;
+		line-height: 24px;
+		color: #1b1a1a;
+		margin: 0 0 15px 0;
+	}
+	.indexHeroSectionContent {
+		line-height: 18px;
+		font-size: 16px;
+		top:25%;
+	}
+	
+}
+
+@media (max-width: 400px) {
+	.indexSearchContainer .heading {
+		display: block;
+		text-align: center;
+		font-size: 20px !important;
+		line-height: 24px;
+		color: #1b1a1a;
+		margin: 0 0 15px 0;
+	}
+	.indexHeroSectionContent {
+		line-height: 18px;
+		font-size: 16px;
+		top:15%;
+	}
+	
+}
+
